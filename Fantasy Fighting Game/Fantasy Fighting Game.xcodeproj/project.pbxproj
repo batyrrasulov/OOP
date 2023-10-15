@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250E70A42A6C860A00013325 /* Adventurer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 250E70A32A6C860A00013325 /* Adventurer.cpp */; };
+		250E70A72A6C89B700013325 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 250E70A62A6C89B700013325 /* Enemy.cpp */; };
+		250E70AA2A6C8C7D00013325 /* Hut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 250E70A92A6C8C7D00013325 /* Hut.cpp */; };
+		250E70AD2A6C91BC00013325 /* Island.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 250E70AC2A6C91BC00013325 /* Island.cpp */; };
+		250E70B02A6C9C1F00013325 /* Load.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 250E70AF2A6C9C1F00013325 /* Load.cpp */; };
+		250E70B32A6CA23B00013325 /* MenuHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 250E70B22A6CA23B00013325 /* MenuHandler.cpp */; };
+		250E70B62A6CA51E00013325 /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 250E70B52A6CA51E00013325 /* Weapon.cpp */; };
+		2582BEB52A351097009A45D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2582BEB42A351097009A45D2 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2582BEAF2A351097009A45D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		250E70A22A6C84E700013325 /* Adventurer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adventurer.h; sourceTree = "<group>"; };
+		250E70A32A6C860A00013325 /* Adventurer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Adventurer.cpp; sourceTree = "<group>"; };
+		250E70A52A6C88DB00013325 /* Enemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		250E70A62A6C89B700013325 /* Enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		250E70A82A6C8B3300013325 /* Hut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hut.h; sourceTree = "<group>"; };
+		250E70A92A6C8C7D00013325 /* Hut.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hut.cpp; sourceTree = "<group>"; };
+		250E70AB2A6C90C100013325 /* Island.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Island.h; sourceTree = "<group>"; };
+		250E70AC2A6C91BC00013325 /* Island.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Island.cpp; sourceTree = "<group>"; };
+		250E70AE2A6C9AC100013325 /* Load.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Load.h; sourceTree = "<group>"; };
+		250E70AF2A6C9C1F00013325 /* Load.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Load.cpp; sourceTree = "<group>"; };
+		250E70B12A6CA10B00013325 /* MenuHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuHandler.h; sourceTree = "<group>"; };
+		250E70B22A6CA23B00013325 /* MenuHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MenuHandler.cpp; sourceTree = "<group>"; };
+		250E70B42A6CA45D00013325 /* Weapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		250E70B52A6CA51E00013325 /* Weapon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Weapon.cpp; sourceTree = "<group>"; };
+		2582BEB12A351097009A45D2 /* Fantasy Fighting Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Fantasy Fighting Game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2582BEB42A351097009A45D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2582BEAE2A351097009A45D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2582BEA82A351097009A45D2 = {
+			isa = PBXGroup;
+			children = (
+				2582BEB32A351097009A45D2 /* Fantasy Fighting Game */,
+				2582BEB22A351097009A45D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2582BEB22A351097009A45D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2582BEB12A351097009A45D2 /* Fantasy Fighting Game */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2582BEB32A351097009A45D2 /* Fantasy Fighting Game */ = {
+			isa = PBXGroup;
+			children = (
+				2582BEB42A351097009A45D2 /* main.cpp */,
+				250E70A22A6C84E700013325 /* Adventurer.h */,
+				250E70A32A6C860A00013325 /* Adventurer.cpp */,
+				250E70A52A6C88DB00013325 /* Enemy.h */,
+				250E70A62A6C89B700013325 /* Enemy.cpp */,
+				250E70A82A6C8B3300013325 /* Hut.h */,
+				250E70A92A6C8C7D00013325 /* Hut.cpp */,
+				250E70AB2A6C90C100013325 /* Island.h */,
+				250E70AC2A6C91BC00013325 /* Island.cpp */,
+				250E70AE2A6C9AC100013325 /* Load.h */,
+				250E70AF2A6C9C1F00013325 /* Load.cpp */,
+				250E70B12A6CA10B00013325 /* MenuHandler.h */,
+				250E70B22A6CA23B00013325 /* MenuHandler.cpp */,
+				250E70B42A6CA45D00013325 /* Weapon.h */,
+				250E70B52A6CA51E00013325 /* Weapon.cpp */,
+			);
+			path = "Fantasy Fighting Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2582BEB02A351097009A45D2 /* Fantasy Fighting Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2582BEB82A351097009A45D2 /* Build configuration list for PBXNativeTarget "Fantasy Fighting Game" */;
+			buildPhases = (
+				2582BEAD2A351097009A45D2 /* Sources */,
+				2582BEAE2A351097009A45D2 /* Frameworks */,
+				2582BEAF2A351097009A45D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fantasy Fighting Game";
+			productName = "Fantasy Fighting Game";
+			productReference = 2582BEB12A351097009A45D2 /* Fantasy Fighting Game */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2582BEA92A351097009A45D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2582BEB02A351097009A45D2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2582BEAC2A351097009A45D2 /* Build configuration list for PBXProject "Fantasy Fighting Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2582BEA82A351097009A45D2;
+			productRefGroup = 2582BEB22A351097009A45D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2582BEB02A351097009A45D2 /* Fantasy Fighting Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2582BEAD2A351097009A45D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250E70A72A6C89B700013325 /* Enemy.cpp in Sources */,
+				250E70AD2A6C91BC00013325 /* Island.cpp in Sources */,
+				250E70AA2A6C8C7D00013325 /* Hut.cpp in Sources */,
+				250E70B02A6C9C1F00013325 /* Load.cpp in Sources */,
+				2582BEB52A351097009A45D2 /* main.cpp in Sources */,
+				250E70B62A6CA51E00013325 /* Weapon.cpp in Sources */,
+				250E70A42A6C860A00013325 /* Adventurer.cpp in Sources */,
+				250E70B32A6CA23B00013325 /* MenuHandler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2582BEB62A351097009A45D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2582BEB72A351097009A45D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2582BEB92A351097009A45D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QXF92U9GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2582BEBA2A351097009A45D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QXF92U9GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2582BEAC2A351097009A45D2 /* Build configuration list for PBXProject "Fantasy Fighting Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2582BEB62A351097009A45D2 /* Debug */,
+				2582BEB72A351097009A45D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2582BEB82A351097009A45D2 /* Build configuration list for PBXNativeTarget "Fantasy Fighting Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2582BEB92A351097009A45D2 /* Debug */,
+				2582BEBA2A351097009A45D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2582BEA92A351097009A45D2 /* Project object */;
+}

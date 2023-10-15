@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25DA457B29FD40E800155871 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25DA457A29FD40E800155871 /* main.cpp */; };
+		25DA458329FD413C00155871 /* Adventurer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25DA458229FD413C00155871 /* Adventurer.cpp */; };
+		25DA458629FD417600155871 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25DA458529FD417600155871 /* Enemy.cpp */; };
+		25DA458929FD41BF00155871 /* Island.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25DA458829FD41BF00155871 /* Island.cpp */; };
+		25DA458C29FD41F600155871 /* Hut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25DA458B29FD41F600155871 /* Hut.cpp */; };
+		25DA458F29FD422E00155871 /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25DA458E29FD422E00155871 /* Weapon.cpp */; };
+		25DA459229FD426400155871 /* Load.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25DA459129FD426400155871 /* Load.cpp */; };
+		25DA459529FD42A100155871 /* MenuHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25DA459429FD42A100155871 /* MenuHandler.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25DA457529FD40E800155871 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25DA457729FD40E800155871 /* Fantasy Fighting Game 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Fantasy Fighting Game 3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DA457A29FD40E800155871 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		25DA458129FD411B00155871 /* Adventurer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adventurer.h; sourceTree = "<group>"; };
+		25DA458229FD413C00155871 /* Adventurer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Adventurer.cpp; sourceTree = "<group>"; };
+		25DA458429FD415D00155871 /* Enemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		25DA458529FD417600155871 /* Enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		25DA458729FD419600155871 /* Island.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Island.h; sourceTree = "<group>"; };
+		25DA458829FD41BF00155871 /* Island.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Island.cpp; sourceTree = "<group>"; };
+		25DA458A29FD41DD00155871 /* Hut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hut.h; sourceTree = "<group>"; };
+		25DA458B29FD41F600155871 /* Hut.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hut.cpp; sourceTree = "<group>"; };
+		25DA458D29FD421000155871 /* Weapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		25DA458E29FD422E00155871 /* Weapon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Weapon.cpp; sourceTree = "<group>"; };
+		25DA459029FD424500155871 /* Load.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Load.h; sourceTree = "<group>"; };
+		25DA459129FD426400155871 /* Load.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Load.cpp; sourceTree = "<group>"; };
+		25DA459329FD428400155871 /* MenuHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuHandler.h; sourceTree = "<group>"; };
+		25DA459429FD42A100155871 /* MenuHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MenuHandler.cpp; sourceTree = "<group>"; };
+		25DA459629FD42E900155871 /* saveFile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = saveFile.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DA457429FD40E800155871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DA456E29FD40E800155871 = {
+			isa = PBXGroup;
+			children = (
+				25DA457929FD40E800155871 /* Fantasy Fighting Game 3 */,
+				25DA457829FD40E800155871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25DA457829FD40E800155871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25DA457729FD40E800155871 /* Fantasy Fighting Game 3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25DA457929FD40E800155871 /* Fantasy Fighting Game 3 */ = {
+			isa = PBXGroup;
+			children = (
+				25DA457A29FD40E800155871 /* main.cpp */,
+				25DA458129FD411B00155871 /* Adventurer.h */,
+				25DA458229FD413C00155871 /* Adventurer.cpp */,
+				25DA458429FD415D00155871 /* Enemy.h */,
+				25DA458529FD417600155871 /* Enemy.cpp */,
+				25DA458729FD419600155871 /* Island.h */,
+				25DA458829FD41BF00155871 /* Island.cpp */,
+				25DA458A29FD41DD00155871 /* Hut.h */,
+				25DA458B29FD41F600155871 /* Hut.cpp */,
+				25DA458D29FD421000155871 /* Weapon.h */,
+				25DA458E29FD422E00155871 /* Weapon.cpp */,
+				25DA459029FD424500155871 /* Load.h */,
+				25DA459129FD426400155871 /* Load.cpp */,
+				25DA459329FD428400155871 /* MenuHandler.h */,
+				25DA459429FD42A100155871 /* MenuHandler.cpp */,
+				25DA459629FD42E900155871 /* saveFile.txt */,
+			);
+			path = "Fantasy Fighting Game 3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25DA457629FD40E800155871 /* Fantasy Fighting Game 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DA457E29FD40E800155871 /* Build configuration list for PBXNativeTarget "Fantasy Fighting Game 3" */;
+			buildPhases = (
+				25DA457329FD40E800155871 /* Sources */,
+				25DA457429FD40E800155871 /* Frameworks */,
+				25DA457529FD40E800155871 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fantasy Fighting Game 3";
+			productName = "Fantasy Fighting Game 3";
+			productReference = 25DA457729FD40E800155871 /* Fantasy Fighting Game 3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25DA456F29FD40E800155871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					25DA457629FD40E800155871 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 25DA457229FD40E800155871 /* Build configuration list for PBXProject "Fantasy Fighting Game 3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25DA456E29FD40E800155871;
+			productRefGroup = 25DA457829FD40E800155871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25DA457629FD40E800155871 /* Fantasy Fighting Game 3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25DA457329FD40E800155871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DA458629FD417600155871 /* Enemy.cpp in Sources */,
+				25DA459229FD426400155871 /* Load.cpp in Sources */,
+				25DA458F29FD422E00155871 /* Weapon.cpp in Sources */,
+				25DA459529FD42A100155871 /* MenuHandler.cpp in Sources */,
+				25DA457B29FD40E800155871 /* main.cpp in Sources */,
+				25DA458C29FD41F600155871 /* Hut.cpp in Sources */,
+				25DA458929FD41BF00155871 /* Island.cpp in Sources */,
+				25DA458329FD413C00155871 /* Adventurer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25DA457C29FD40E800155871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25DA457D29FD40E800155871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25DA457F29FD40E800155871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QXF92U9GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25DA458029FD40E800155871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QXF92U9GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DA457229FD40E800155871 /* Build configuration list for PBXProject "Fantasy Fighting Game 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DA457C29FD40E800155871 /* Debug */,
+				25DA457D29FD40E800155871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DA457E29FD40E800155871 /* Build configuration list for PBXNativeTarget "Fantasy Fighting Game 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DA457F29FD40E800155871 /* Debug */,
+				25DA458029FD40E800155871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25DA456F29FD40E800155871 /* Project object */;
+}
