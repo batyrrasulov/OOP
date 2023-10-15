@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2570B4CE29BD3E8100D7B580 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2570B4CD29BD3E8100D7B580 /* main.cpp */; };
+		2570B4D729BD401700D7B580 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2570B4D529BD401700D7B580 /* Animal.cpp */; };
+		2570B4DA29BD419E00D7B580 /* Pig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2570B4D929BD419E00D7B580 /* Pig.cpp */; };
+		2570B4DD29BD435B00D7B580 /* Chicken.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2570B4DC29BD435B00D7B580 /* Chicken.cpp */; };
+		2570B4E029BD44EB00D7B580 /* Cow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2570B4DF29BD44EB00D7B580 /* Cow.cpp */; };
+		2570B4E329BD478C00D7B580 /* Barn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2570B4E229BD478C00D7B580 /* Barn.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2570B4C829BD3E8100D7B580 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2570B4CA29BD3E8100D7B580 /* Animal Farm, Part 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Animal Farm, Part 1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2570B4CD29BD3E8100D7B580 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2570B4D429BD3F7700D7B580 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		2570B4D529BD401700D7B580 /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		2570B4D829BD413000D7B580 /* Pig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
+		2570B4D929BD419E00D7B580 /* Pig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pig.cpp; sourceTree = "<group>"; };
+		2570B4DB29BD42C700D7B580 /* Chicken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chicken.h; sourceTree = "<group>"; };
+		2570B4DC29BD435B00D7B580 /* Chicken.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chicken.cpp; sourceTree = "<group>"; };
+		2570B4DE29BD447100D7B580 /* Cow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cow.h; sourceTree = "<group>"; };
+		2570B4DF29BD44EB00D7B580 /* Cow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cow.cpp; sourceTree = "<group>"; };
+		2570B4E129BD46B400D7B580 /* Barn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Barn.h; sourceTree = "<group>"; };
+		2570B4E229BD478C00D7B580 /* Barn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Barn.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2570B4C729BD3E8100D7B580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2570B4C129BD3E8100D7B580 = {
+			isa = PBXGroup;
+			children = (
+				2570B4CC29BD3E8100D7B580 /* Animal Farm, Part 1 */,
+				2570B4CB29BD3E8100D7B580 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2570B4CB29BD3E8100D7B580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2570B4CA29BD3E8100D7B580 /* Animal Farm, Part 1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2570B4CC29BD3E8100D7B580 /* Animal Farm, Part 1 */ = {
+			isa = PBXGroup;
+			children = (
+				2570B4CD29BD3E8100D7B580 /* main.cpp */,
+				2570B4D429BD3F7700D7B580 /* Animal.h */,
+				2570B4D529BD401700D7B580 /* Animal.cpp */,
+				2570B4D829BD413000D7B580 /* Pig.h */,
+				2570B4D929BD419E00D7B580 /* Pig.cpp */,
+				2570B4DB29BD42C700D7B580 /* Chicken.h */,
+				2570B4DC29BD435B00D7B580 /* Chicken.cpp */,
+				2570B4DE29BD447100D7B580 /* Cow.h */,
+				2570B4DF29BD44EB00D7B580 /* Cow.cpp */,
+				2570B4E129BD46B400D7B580 /* Barn.h */,
+				2570B4E229BD478C00D7B580 /* Barn.cpp */,
+			);
+			path = "Animal Farm, Part 1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2570B4C929BD3E8100D7B580 /* Animal Farm, Part 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2570B4D129BD3E8100D7B580 /* Build configuration list for PBXNativeTarget "Animal Farm, Part 1" */;
+			buildPhases = (
+				2570B4C629BD3E8100D7B580 /* Sources */,
+				2570B4C729BD3E8100D7B580 /* Frameworks */,
+				2570B4C829BD3E8100D7B580 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animal Farm, Part 1";
+			productName = "Animal Farm, Part 1";
+			productReference = 2570B4CA29BD3E8100D7B580 /* Animal Farm, Part 1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2570B4C229BD3E8100D7B580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2570B4C929BD3E8100D7B580 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2570B4C529BD3E8100D7B580 /* Build configuration list for PBXProject "Animal Farm, Part 1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2570B4C129BD3E8100D7B580;
+			productRefGroup = 2570B4CB29BD3E8100D7B580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2570B4C929BD3E8100D7B580 /* Animal Farm, Part 1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2570B4C629BD3E8100D7B580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2570B4E329BD478C00D7B580 /* Barn.cpp in Sources */,
+				2570B4DA29BD419E00D7B580 /* Pig.cpp in Sources */,
+				2570B4E029BD44EB00D7B580 /* Cow.cpp in Sources */,
+				2570B4DD29BD435B00D7B580 /* Chicken.cpp in Sources */,
+				2570B4CE29BD3E8100D7B580 /* main.cpp in Sources */,
+				2570B4D729BD401700D7B580 /* Animal.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2570B4CF29BD3E8100D7B580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2570B4D029BD3E8100D7B580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2570B4D229BD3E8100D7B580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QXF92U9GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2570B4D329BD3E8100D7B580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QXF92U9GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2570B4C529BD3E8100D7B580 /* Build configuration list for PBXProject "Animal Farm, Part 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2570B4CF29BD3E8100D7B580 /* Debug */,
+				2570B4D029BD3E8100D7B580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2570B4D129BD3E8100D7B580 /* Build configuration list for PBXNativeTarget "Animal Farm, Part 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2570B4D229BD3E8100D7B580 /* Debug */,
+				2570B4D329BD3E8100D7B580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2570B4C229BD3E8100D7B580 /* Project object */;
+}

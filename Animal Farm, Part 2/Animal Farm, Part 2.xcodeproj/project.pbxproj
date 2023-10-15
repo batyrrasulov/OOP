@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252E12EA29D111A00042E71D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 252E12E929D111A00042E71D /* main.cpp */; };
+		252E12F129D111BE0042E71D /* Barn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 252E12F029D111BE0042E71D /* Barn.cpp */; };
+		252E12F429D111DB0042E71D /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 252E12F329D111DB0042E71D /* Animal.cpp */; };
+		252E12F729D111FF0042E71D /* Cow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 252E12F629D111FF0042E71D /* Cow.cpp */; };
+		252E12FA29D1121A0042E71D /* Pig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 252E12F929D1121A0042E71D /* Pig.cpp */; };
+		252E12FD29D112330042E71D /* Chicken.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 252E12FC29D112330042E71D /* Chicken.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		252E12E429D111A00042E71D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		252E12E629D111A00042E71D /* Animal Farm, Part 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Animal Farm, Part 2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252E12E929D111A00042E71D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		252E12F029D111BE0042E71D /* Barn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Barn.cpp; sourceTree = "<group>"; };
+		252E12F229D111CB0042E71D /* Barn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Barn.h; sourceTree = "<group>"; };
+		252E12F329D111DB0042E71D /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		252E12F529D111E90042E71D /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		252E12F629D111FF0042E71D /* Cow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cow.cpp; sourceTree = "<group>"; };
+		252E12F829D1120A0042E71D /* Cow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cow.h; sourceTree = "<group>"; };
+		252E12F929D1121A0042E71D /* Pig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pig.cpp; sourceTree = "<group>"; };
+		252E12FB29D112250042E71D /* Pig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
+		252E12FC29D112330042E71D /* Chicken.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chicken.cpp; sourceTree = "<group>"; };
+		252E12FE29D1123E0042E71D /* Chicken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chicken.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252E12E329D111A00042E71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252E12DD29D111A00042E71D = {
+			isa = PBXGroup;
+			children = (
+				252E12E829D111A00042E71D /* Animal Farm, Part 2 */,
+				252E12E729D111A00042E71D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		252E12E729D111A00042E71D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252E12E629D111A00042E71D /* Animal Farm, Part 2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		252E12E829D111A00042E71D /* Animal Farm, Part 2 */ = {
+			isa = PBXGroup;
+			children = (
+				252E12E929D111A00042E71D /* main.cpp */,
+				252E12F029D111BE0042E71D /* Barn.cpp */,
+				252E12F229D111CB0042E71D /* Barn.h */,
+				252E12F329D111DB0042E71D /* Animal.cpp */,
+				252E12F529D111E90042E71D /* Animal.h */,
+				252E12F629D111FF0042E71D /* Cow.cpp */,
+				252E12F829D1120A0042E71D /* Cow.h */,
+				252E12F929D1121A0042E71D /* Pig.cpp */,
+				252E12FB29D112250042E71D /* Pig.h */,
+				252E12FC29D112330042E71D /* Chicken.cpp */,
+				252E12FE29D1123E0042E71D /* Chicken.h */,
+			);
+			path = "Animal Farm, Part 2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		252E12E529D111A00042E71D /* Animal Farm, Part 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252E12ED29D111A00042E71D /* Build configuration list for PBXNativeTarget "Animal Farm, Part 2" */;
+			buildPhases = (
+				252E12E229D111A00042E71D /* Sources */,
+				252E12E329D111A00042E71D /* Frameworks */,
+				252E12E429D111A00042E71D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animal Farm, Part 2";
+			productName = "Animal Farm, Part 2";
+			productReference = 252E12E629D111A00042E71D /* Animal Farm, Part 2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252E12DE29D111A00042E71D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					252E12E529D111A00042E71D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 252E12E129D111A00042E71D /* Build configuration list for PBXProject "Animal Farm, Part 2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 252E12DD29D111A00042E71D;
+			productRefGroup = 252E12E729D111A00042E71D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252E12E529D111A00042E71D /* Animal Farm, Part 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252E12E229D111A00042E71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252E12F129D111BE0042E71D /* Barn.cpp in Sources */,
+				252E12F729D111FF0042E71D /* Cow.cpp in Sources */,
+				252E12FA29D1121A0042E71D /* Pig.cpp in Sources */,
+				252E12FD29D112330042E71D /* Chicken.cpp in Sources */,
+				252E12EA29D111A00042E71D /* main.cpp in Sources */,
+				252E12F429D111DB0042E71D /* Animal.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		252E12EB29D111A00042E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		252E12EC29D111A00042E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		252E12EE29D111A00042E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QXF92U9GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		252E12EF29D111A00042E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QXF92U9GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252E12E129D111A00042E71D /* Build configuration list for PBXProject "Animal Farm, Part 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252E12EB29D111A00042E71D /* Debug */,
+				252E12EC29D111A00042E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252E12ED29D111A00042E71D /* Build configuration list for PBXNativeTarget "Animal Farm, Part 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252E12EE29D111A00042E71D /* Debug */,
+				252E12EF29D111A00042E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 252E12DE29D111A00042E71D /* Project object */;
+}
